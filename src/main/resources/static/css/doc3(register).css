@@ -1,0 +1,98 @@
+h1 {
+	font-family: verdana;
+	padding-left: 90px;
+	padding-top: 20px;
+	color: #0F6DCC;
+}
+
+.col-lg-6 {
+	padding-top: 50px;
+	padding-left: 70px;
+	font-family: verdana;
+	border-radius: 5px;
+}
+
+.col-1 {
+	color: #137BE5;
+	background-color: white;
+}
+
+.col-2 {
+	background-color: black;
+	color: white;
+}
+
+body {
+	background-image: url('/img/doc18.jpg');
+	background-size: cover;
+}
+
+#firstName, #lastName {
+	border: 0px;
+	border-bottom: 1px solid;
+	padding-right: 45%;
+	margin-bottom: 30px;
+}
+
+#btn1, #btn2 {
+	color: black;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-right: 15px;
+	margin-bottom: 50px;
+	padding: 15px 35px;
+}
+
+#btn3 {
+	color: black;
+	background-color: #ddd;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-right: 15px;
+	margin-bottom: 50px;
+	padding: 20px 35px;
+	text-decoration: none;
+}
+
+#maritalStatus, #gender {
+	border: 0px;
+	border-bottom: 1px solid;
+	padding-right: 60%;
+	margin-bottom: 30px;
+}
+
+#height, #weight {
+	border: 0px;
+	border-bottom: 1px solid;
+	margin-bottom: 30px;
+}
+
+#country, #email, #password {
+	color: #ccc;
+	border: 0px;
+	border-bottom: 1px solid #aaa;
+	padding-right: 43%;
+	margin-bottom: 30px;
+	background-color: black;
+}
+
+#zipcode::placeholder, #place::placeholder, #country::placeholder, #code::placeholder,
+	#phone::placeholder, #email::placeholder, #password::placeholder {
+	color: #ccc;
+}
+
+#zipcode, #place, #code, #phone {
+	color: #ccc;
+	border: 0px;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 30px;
+	background-color: black;
+}
+
+.no-gutter>[class*='col-lg-8'] {
+	padding-left: 60px !important;
+}
+
+p {
+	font-size: 15px;
+}

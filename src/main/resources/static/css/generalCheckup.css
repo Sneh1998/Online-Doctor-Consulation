@@ -1,0 +1,78 @@
+h1 {
+	padding-left: 90px;
+	padding-top: 20px;
+	color: #0F6DCC;
+}
+
+.col-lg-6 {
+	padding-top: 50px;
+	padding-left: 70px;
+	font-family: verdana;
+	border-radius: 5px;
+}
+.appoint{
+	margin:20px;
+}
+.appointDiscuss,#btn1{
+	margin-left:20px;
+}
+.col-1 {
+	background-image:url("/img/appointmnt.jpg");
+	background-size: cover !important;
+	
+}
+
+.col-2 {
+	background-color: black;
+	color: white;
+}
+
+body {
+	background-size: cover;
+}
+
+#firstName, #lastName {
+	border: 0px;
+	border-bottom: 1px solid;
+	padding-right: 45%;
+	margin-bottom: 30px;
+}
+
+#btn1 {
+	color: white;
+	border-radius: 5px;
+	margin-top: 30px;
+	padding: 10px 60px;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+
+#name, #email,#age,#phone {
+	color: #ccc;
+	border: 0px;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 30px;
+	background-color: black;
+}
+
+#discuss {
+	color: grey;
+	border: 0px;
+	border-bottom: 1px solid;
+	padding-right: 50%;
+	margin-bottom: 30px;
+	background-color:black;
+}
+
+#name::placeholder, #phone::placeholder, #age::placeholder, #email::placeholder {
+	color: #ccc;
+}
+
+.no-gutter>[class*='col-lg-8'] {
+	padding-left: 60px !important;
+}
+
+p {
+	font-size: 15px;
+}
